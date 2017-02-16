@@ -3,6 +3,11 @@ class Libpipeline < Formula
   homepage "http://libpipeline.nongnu.org/"
   url "https://download.savannah.gnu.org/releases/libpipeline/libpipeline-1.3.1.tar.gz"
   sha256 "5cad1b446f135ec3800d32c8c951a1114f4c438609a4c52b262c30301bc8e692"
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "683eb078924cbf5e117dea4037ee13847e341781e0bfe042c1966695a47056fb" => :x86_64_linux
+  end
+
   # tag "linuxbrew"
 
   head do
